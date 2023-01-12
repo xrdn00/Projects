@@ -1,0 +1,43 @@
+body{
+margin: 0;
+padding: 0;
+background: url(street.jpg) no-repeat center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: sans-serif;
+}
+
+.loginbox{
+width: 320px;
+height: 420px;
+background: url(sunset.gif);
+color: #ff
+center: 100%
+position: absolute;
+transform: translate(-50%,-50%)
+box-sizing; border-radius: 12px;
+}
+.button {
+  background-color: #000; /* black */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1{
+border-radius: 12px;
+}
+
+
+
+
+
+
+
