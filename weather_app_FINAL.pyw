@@ -56,6 +56,7 @@ def clock():
 canvas = Canvas(root,width = 800, height = 500,highlightthickness = 0)
 label1 = customtkinter.CTkButton(canvas, text = "",width = 100,height=50,corner_radius = 20,text_color = "gold",bg_color = "lightblue")
 label1.pack(pady=20)
+label1.place(x=350,y=440)
 label2 = customtkinter.CTkLabel(canvas,text = "Humidity: ",text_color = "gold",bg_color = "black")
 label2.pack(side = "left",anchor = "se",padx = 20)
 
